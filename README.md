@@ -19,7 +19,7 @@ Covers fundamentals used across all domains:
 - Networking
 - Databases
 - APIs
-- Applications
+- Applications (Web, Mobile, Desktop)
 - Testing
 - Design Principles
 - System Design
@@ -28,6 +28,10 @@ Covers fundamentals used across all domains:
 - Continous Integration & Continous Deployment (CI/CD)
 - Cloud
 - AI
+
+
+These are ordered based on learning sequence.  
+At least basic understanding of one is required before moving to the next.
 
 ---
 
@@ -70,18 +74,24 @@ engineering-foundations-learning/
 ├── ai/
 │   ├── README.md
 │   ├── ai-basics.md
-│   ├── llms.md
-│   ├── prompt-engineering.md
 │   ├── ai-agents.md
 │   ├── embeddings.md
-│   ├── vector-databases.md
-│   └── use-cases.md
-|
+│   ├── llms.md
+│   ├── prompt-engineering.md
+│   ├── use-cases.md
+│   └── vector-databases.md
+│
 ├── apis/
 │   ├── README.md
 │   ├── authentication.md
 │   ├── pagination.md
 │   └── rest.md
+│
+├── applications/
+│   ├── README.md
+│   ├── how-desktop-apps-work.md
+│   ├── how-mobile-apps-work.md
+│   └── how-websites-work.md
 │
 ├── cicd/
 │   ├── README.md
@@ -155,7 +165,7 @@ engineering-foundations-learning/
 │   ├── file-navigation.md
 │   ├── pipes-and-redirection.md
 │   └── scripting.md
-|
+│
 ├── system-design/
 │   ├── README.md
 │   ├── caching.md
