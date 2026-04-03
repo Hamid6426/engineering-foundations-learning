@@ -1,4 +1,4 @@
-# Engineering Foundations
+# Engineering Foundations Learning Repository
 
 This repository contains core software engineering concepts that are independent of any specific language, framework, or tech stack.
 
@@ -10,6 +10,7 @@ Focus is on understanding how systems actually work, not just how to use tools.
 
 Covers fundamentals used across all domains:
 
+- Integrated development environment (IDE)
 - Version Control
 - Operating Systems
 - Networking
@@ -60,89 +61,96 @@ This repo is a long-term reference for:
 ## Repo Structure
 
 ```
-engineering-foundations/
-│
-├── version-control/
-│   ├── README.md
-│   ├── git-basics.md
-│   ├── branching.md
-│   └── rebasing-vs-merging.md
-│
-├── programming-fundamentals/
-│   ├── README.md
-│   ├── data-structures.md
-│   ├── algorithms.md
-│   └── complexity.md
-│
-├── operating-systems/
-│   ├── README.md
-│   ├── processes-vs-threads.md
-│   ├── memory-management.md
-│   └── file-systems.md
-│
-├── networking/
-│   ├── README.md
-│   ├── http-https.md
-│   ├── tcp-ip.md
-│   └── dns.md
-│
-├── databases/
-│   ├── README.md
-│   ├── sql-basics.md
-│   ├── indexing.md
-│   ├── transactions.md
-│   └── nosql.md
+engineering-foundations-learning/
 │
 ├── apis/
 │   ├── README.md
-│   ├── rest.md
 │   ├── authentication.md
-│   └── pagination.md
-│
-├── system-design/
-│   ├── README.md
-│   ├── monolith-vs-microservices.md
-│   ├── scaling.md
-│   └── caching.md
-│
-├── design-principles/
-│   ├── README.md
-│   ├── solid.md
-│   ├── dry-kiss.md
-│   └── separation-of-concerns.md
-│
-├── testing/
-│   ├── README.md
-│   ├── unit-testing.md
-│   ├── integration-testing.md
-│   └── mocking.md
-│
-├── debugging/
-│   ├── README.md
-│   ├── debugging-strategies.md
-│   └── logging.md
-│
-├── security/
-│   ├── README.md
-│   ├── authentication-vs-authorization.md
-│   ├── hashing.md
-│   └── common-vulnerabilities.md
+│   ├── pagination.md
+│   └── rest.md
 │
 ├── cicd/
 │   ├── README.md
 │   ├── pipelines.md
 │   └── workflows.md
 │
+├── cloud/
+│   ├── README.md
+│   ├── compute.md
+│   ├── networking.md
+│   └── storage.md
+│
 ├── containers/
 │   ├── README.md
 │   ├── docker-basics.md
 │   └── environments.md
 │
-├── cloud/
+├── databases/
 │   ├── README.md
-│   ├── compute.md
-│   ├── storage.md
-│   └── networking.md
+│   ├── indexing.md
+│   ├── nosql.md
+│   ├── sql-basics.md
+│   └── transactions.md
+│
+├── debugging/
+│   ├── README.md
+│   ├── debugging-strategies.md
+│   └── logging.md
+│
+├── design-principles/
+│   ├── README.md
+│   ├── dry-kiss.md
+│   ├── separation-of-concerns.md
+│   └── solid.md
+│
+├── ide/
+│   ├── README.md
+│   ├── debugging-tools.md
+│   ├── extensions.md
+│   ├── navigation.md
+│   └── shortcuts.md
+│
+├── networking/
+│   ├── README.md
+│   ├── dns.md
+│   ├── http-https.md
+│   └── tcp-ip.md
+│
+├── operating-systems/
+│   ├── README.md
+│   ├── file-systems.md
+│   ├── memory-management.md
+│   └── processes-vs-threads.md
+│
+├── programming-fundamentals/
+│   ├── README.md
+│   ├── algorithms.md
+│   ├── complexity.md
+│   └── data-structures.md
+│
+├── security/
+│   ├── README.md
+│   ├── authentication-vs-authorization.md
+│   ├── common-vulnerabilities.md
+│   └── hashing.md
+│
+├── system-design/
+│   ├── README.md
+│   ├── caching.md
+│   ├── monolith-vs-microservices.md
+│   └── scaling.md
+│
+├── testing/
+│   ├── README.md
+│   ├── integration-testing.md
+│   ├── mocking.md
+│   └── unit-testing.md
+│
+├── version-control/
+│   ├── README.md
+│   ├── branching.md
+│   ├── git-basics.md
+│   └── rebasing-vs-merging.md
 │
 └── README.md
 ```
