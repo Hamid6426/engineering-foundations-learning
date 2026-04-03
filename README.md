@@ -10,20 +10,24 @@ Focus is on understanding how systems actually work, not just how to use tools.
 
 Covers fundamentals used across all domains:
 
-- Integrated development environment (IDE)
+- Shell
 - Version Control
+- Programming Fundamentals
+- Integrated Development Environment (IDE)
+- Debugging
 - Operating Systems
 - Networking
 - Databases
 - APIs
-- System Design
-- Software Design Principles
+- Applications
 - Testing
-- Debugging
-- Security Basics
-- CI/CD
-- Containers & Environments
-- Cloud Basics
+- Design Principles
+- System Design
+- Security
+- Containers
+- Continous Integration & Continous Deployment (CI/CD)
+- Cloud
+- AI
 
 ---
 
@@ -63,6 +67,16 @@ This repo is a long-term reference for:
 ```
 engineering-foundations-learning/
 │
+├── ai/
+│   ├── README.md
+│   ├── ai-basics.md
+│   ├── llms.md
+│   ├── prompt-engineering.md
+│   ├── ai-agents.md
+│   ├── embeddings.md
+│   ├── vector-databases.md
+│   └── use-cases.md
+|
 ├── apis/
 │   ├── README.md
 │   ├── authentication.md
@@ -134,6 +148,14 @@ engineering-foundations-learning/
 │   ├── common-vulnerabilities.md
 │   └── hashing.md
 │
+├── shell/
+│   ├── README.md
+│   ├── bash.md
+│   ├── command-line-basics.md
+│   ├── file-navigation.md
+│   ├── pipes-and-redirection.md
+│   └── scripting.md
+|
 ├── system-design/
 │   ├── README.md
 │   ├── caching.md
